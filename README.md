@@ -97,11 +97,11 @@ logbot.logs(">>> /!\ Invalid passphrase", True)
 
 This ```logs()``` function from [logbot.py](whateverdamnname.py) act as a console **log printer** but also sends the logs to a discord channel you've specified so that you can easily at any time **track your bot's actions**.
 
-![Discord Logs Channel](./README_images/DiscordLogs.PNG "Discord Logs Channel")
+![image](https://user-images.githubusercontent.com/21031516/176995097-5496259c-b471-45fa-9c77-bb33a0d8232d.png)
 
 You can create another channel for **error logs** where you would set notifications to high priority so that you will be quickly aware if anything goes wrong.
 
-![Discord Error Logs Channel](./README_images/DiscordErrorLogs.PNG "Discord Error Logs Channel")
+![image](https://user-images.githubusercontent.com/21031516/176995115-a95cc073-81fc-4b1b-af36-531a9d708632.png)
 
 To do that it's pretty simple, you'll have to send a json post request to the discord webhook *(Discord server settings / Integrations / Webhooks / New webhooks)* which must contain a username, a content and optionally an avatar. If an error has occured you just set the *error* variable to *true* and the message is also send to the error channel.
 
