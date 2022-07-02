@@ -7,9 +7,11 @@
 ### In a nutshell: 
 > Flask app receiving alerts from TradingView and automatically place an order or send the chart to Discord where you can choose whether to take the trade or not through a bot.
 
+```
 Project Cost: MYR 20,000.00
 Project Timeframe: 3 months
 Project Lead: Maximenz
+```
 ---
 
 ## How does it work? What is the plan?
